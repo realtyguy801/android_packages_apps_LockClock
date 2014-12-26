@@ -19,7 +19,13 @@
     android:versionCode="20"
     android:versionName="3.4.0" >
 
+<<<<<<< HEAD
     <uses-sdk android:minSdkVersion="21" />
+=======
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+>>>>>>> 33215a3... Materialize, (1/2):
 
     <permission android:name="com.cyanogenmod.lockclock.permission.READ_WEATHER" />
 
