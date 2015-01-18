@@ -16,7 +16,7 @@
 
 <resources>
 
-    <color name="color_background">#ff1b1f23</color>
+    <color name="color_background">#1c2025</color>
     <color name="theme_primary">#238b81</color>
     <color name="theme_primary_dark">#238b81</color>
     <color name="theme_accent">#238b81</color>
