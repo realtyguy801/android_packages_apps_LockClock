@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name" translatable="false"><i><b>Widgets</b></i></string>
+    <string name="app_name" translatable="false"><b>Widgets</b></string>
     <string name="unknown">Unknown</string>
     <string name="cancel">Cancel</string>
     <string name="loading_indicator">Loading widget\u2026</string>
