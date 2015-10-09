@@ -22,7 +22,8 @@
     <color name="text_shadow_opaque">#3f000000</color>
     <color name="list_selector_focused">#cc33b5e5</color>
     <color name="list_selector_activated">#4d33b5e5</color>
-
+    <color name="header_text_color">#dd000000</color>
+    <color name="header_summary_text_color">#dd000000</color>
     <!-- Material design app colors -->
     <color name="colorPrimary">#ff263238</color>
     <color name="colorPrimaryDark">#ff21272b</color>

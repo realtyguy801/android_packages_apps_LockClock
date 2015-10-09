@@ -31,12 +31,6 @@
         android:layout_marginEnd="6dip"
         android:layout_marginLeft="6dip"
         android:layout_marginStart="6dip">
-
-        <ImageView
-            android:id="@+id/icon"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
     </LinearLayout>
 
     <RelativeLayout
@@ -52,15 +46,17 @@
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/header_text_color"
             android:ellipsize="marquee"
             android:fadingEdge="horizontal"
-            android:singleLine="true"
-            android:textAppearance="?android:attr/textAppearanceMedium" />
+            android:singleLine="true" />
 
         <TextView
             android:id="@+id/summary"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textColor="@color/header_summary_text_color"
             android:layout_alignStart="@id/title"
             android:layout_below="@id/title"
             android:ellipsize="end"
