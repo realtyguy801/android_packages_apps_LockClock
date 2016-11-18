@@ -79,6 +79,7 @@ public class CalendarPreferences extends PreferenceFragment implements
         if (!hasCalendarPermission()) {
             mShowCalendar.setChecked(false);
         } else {
+            mShowCalendar.setChecked(true);
             updateCalendars();
         }
     }

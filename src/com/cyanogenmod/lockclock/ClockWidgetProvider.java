@@ -38,7 +38,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         // Default handling, triggered via the super class
         if (D) Log.v(TAG, "Updating widgets, default handling.");
-        updateWidgets(context, false, false);
+        updateWidgets(context, true, false);
     }
 
     @Override
@@ -66,7 +66,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         } else if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             // On first boot lastUpdate will be 0 thus no need to force an update
             // Subsequent boots will use cached data
-            WeatherUpdateService.scheduleNextUpdate(context, false);
+            WeatherUpdateService.scheduleNextUpdate(context, true);
 
         // A widget has been deleted, prevent our handling and ask the super class handle it
         } else if (AppWidgetManager.ACTION_APPWIDGET_DELETED.equals(action)
@@ -98,7 +98,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
         } else {
             if (D) Log.v(TAG, "We did not handle the intent, trigger normal handling");
             super.onReceive(context, intent);
-            updateWidgets(context, false, false);
+            updateWidgets(context, true, false);
         }
     }
 
