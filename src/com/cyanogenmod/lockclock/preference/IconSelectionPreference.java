@@ -93,12 +93,12 @@ public class IconSelectionPreference extends DialogPreference implements
                 R.drawable.weather_color_28),
         new IconSetDescriptor("mono", R.string.weather_icons_monochrome,
                 R.drawable.weather_28),
-        new IconSetDescriptor("vclouds", R.string.weather_icons_vclouds,
-                R.drawable.weather_vclouds_28),
         new IconSetDescriptor("marshmallow", R.string.weather_icons_marshmallow,
                 R.drawable.weather_marshmallow_28),
         new IconSetDescriptor("weezle", R.string.weather_icons_weezle,
                 R.drawable.weather_weezle_28)
+        new IconSetDescriptor("vclouds", R.string.weather_icons_vclouds,
+                R.drawable.weather_vclouds_28),
     };
 
     private static final IntentFilter PACKAGE_CHANGE_FILTER = new IntentFilter();
