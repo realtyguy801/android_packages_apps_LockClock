@@ -105,6 +105,8 @@ public class IconSelectionPreference extends DialogPreference implements
                 R.drawable.weather_miui_28),
         new IconSetDescriptor("sthul", R.string.weather_icons_sthul,
                 R.drawable.weather_sthul_28),
+        new IconSetDescriptor("tapas", R.string.weather_icons_tapas,
+                R.drawable.weather_tapas_28),
         new IconSetDescriptor("vclouds", R.string.weather_icons_vclouds,
                 R.drawable.weather_vclouds_28)
     };
